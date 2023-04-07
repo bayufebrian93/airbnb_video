@@ -65,7 +65,6 @@ const Modal:React.FC<ModalProps> = ({
     return null;
   }
 
-
   return (
     <>
       <div
@@ -187,7 +186,7 @@ const Modal:React.FC<ModalProps> = ({
                     onClick={handleSubmit}
                   />
                 </div>
-                {/* {footer} */}
+                {footer}
               </div>
             </div>
           </div>
